@@ -1,0 +1,23 @@
+2019-07-26 13:40:23.186 +02:00 [INF] User profile is available. Using 'C:\Users\RaulLorca\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-26 13:40:28.015 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+2019-07-26 13:40:28.076 +02:00 [INF] Executing endpoint 'SerilogSampleApi.Controllers.ValuesController.Get (SerilogSampleApi)'
+2019-07-26 13:40:28.106 +02:00 [INF] Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller SerilogSampleApi.Controllers.ValuesController (SerilogSampleApi).
+2019-07-26 13:40:28.128 +02:00 [INF] Executing action method SerilogSampleApi.Controllers.ValuesController.Get (SerilogSampleApi) - Validation state: "Valid"
+2019-07-26 13:40:28.132 +02:00 [INF] You can clap up to 50 times per post!
+2019-07-26 13:40:28.132 +02:00 [ERR] You forgot to follow me for more programming made simple articles!
+2019-07-26 13:40:28.140 +02:00 [INF] Executed action method SerilogSampleApi.Controllers.ValuesController.Get (SerilogSampleApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.9739ms.
+2019-07-26 13:40:28.160 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String[]'.
+2019-07-26 13:40:28.241 +02:00 [INF] Executed action SerilogSampleApi.Controllers.ValuesController.Get (SerilogSampleApi) in 123.9407ms
+2019-07-26 13:40:28.243 +02:00 [INF] Executed endpoint 'SerilogSampleApi.Controllers.ValuesController.Get (SerilogSampleApi)'
+2019-07-26 13:40:28.278 +02:00 [INF] Request finished in 263.2716ms 200 application/json; charset=utf-8
+2019-07-26 13:40:32.847 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+2019-07-26 13:40:32.847 +02:00 [INF] Executing endpoint 'SerilogSampleApi.Controllers.ValuesController.Get (SerilogSampleApi)'
+2019-07-26 13:40:32.847 +02:00 [INF] Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller SerilogSampleApi.Controllers.ValuesController (SerilogSampleApi).
+2019-07-26 13:40:32.847 +02:00 [INF] Executing action method SerilogSampleApi.Controllers.ValuesController.Get (SerilogSampleApi) - Validation state: "Valid"
+2019-07-26 13:40:32.847 +02:00 [INF] You can clap up to 50 times per post!
+2019-07-26 13:40:32.847 +02:00 [ERR] You forgot to follow me for more programming made simple articles!
+2019-07-26 13:40:32.847 +02:00 [INF] Executed action method SerilogSampleApi.Controllers.ValuesController.Get (SerilogSampleApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.064700000000000008ms.
+2019-07-26 13:40:32.848 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String[]'.
+2019-07-26 13:40:32.848 +02:00 [INF] Executed action SerilogSampleApi.Controllers.ValuesController.Get (SerilogSampleApi) in 0.88250000000000006ms
+2019-07-26 13:40:32.848 +02:00 [INF] Executed endpoint 'SerilogSampleApi.Controllers.ValuesController.Get (SerilogSampleApi)'
+2019-07-26 13:40:32.848 +02:00 [INF] Request finished in 1.6462ms 200 application/json; charset=utf-8
