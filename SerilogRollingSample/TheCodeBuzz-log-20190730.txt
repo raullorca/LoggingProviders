@@ -1,0 +1,23 @@
+2019-07-30 09:37:49.573 +02:00 [Information] User profile is available. Using '"C:\Users\RaulLorca\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-30 09:37:51.950 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44371/api/values  
+2019-07-30 09:37:52.011 +02:00 [Information] Executing endpoint '"SerilogRollingSample.Controllers.ValuesController.Get (SerilogRollingSample)"'
+2019-07-30 09:37:52.068 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "SerilogRollingSample.Controllers.ValuesController" ("SerilogRollingSample").
+2019-07-30 09:37:52.089 +02:00 [Information] Executing action method "SerilogRollingSample.Controllers.ValuesController.Get (SerilogRollingSample)" - Validation state: Valid
+2019-07-30 09:37:52.094 +02:00 [Information] Executed action method "SerilogRollingSample.Controllers.ValuesController.Get (SerilogRollingSample)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.4353ms.
+2019-07-30 09:37:52.106 +02:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-07-30 09:37:52.375 +02:00 [Information] Executed action "SerilogRollingSample.Controllers.ValuesController.Get (SerilogRollingSample)" in 301.5436ms
+2019-07-30 09:37:52.375 +02:00 [Information] Executed endpoint '"SerilogRollingSample.Controllers.ValuesController.Get (SerilogRollingSample)"'
+2019-07-30 09:37:52.383 +02:00 [Information] Request finished in 435.9155ms 200 application/json; charset=utf-8
+2019-07-30 09:37:52.616 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44371/favicon.ico  
+2019-07-30 09:37:52.621 +02:00 [Information] Request finished in 4.7039ms 404 
+2019-07-30 09:38:02.072 +02:00 [Information] Request starting HTTP/2.0 GET https://localhost:44371/api/values/2  
+2019-07-30 09:38:02.072 +02:00 [Information] Executing endpoint '"SerilogRollingSample.Controllers.ValuesController.Get (SerilogRollingSample)"'
+2019-07-30 09:38:02.090 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get(Int32)" on controller "SerilogRollingSample.Controllers.ValuesController" ("SerilogRollingSample").
+2019-07-30 09:38:02.103 +02:00 [Information] Executing action method "SerilogRollingSample.Controllers.ValuesController.Get (SerilogRollingSample)" - Validation state: Valid
+2019-07-30 09:38:02.104 +02:00 [Information] Start : Getting item details for 2
+2019-07-30 09:38:02.106 +02:00 [Information] Completed : Item details for ["A", "B"]
+2019-07-30 09:38:02.107 +02:00 [Information] Executed action method "SerilogRollingSample.Controllers.ValuesController.Get (SerilogRollingSample)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.2391ms.
+2019-07-30 09:38:02.107 +02:00 [Information] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2019-07-30 09:38:02.112 +02:00 [Information] Executed action "SerilogRollingSample.Controllers.ValuesController.Get (SerilogRollingSample)" in 22.3628ms
+2019-07-30 09:38:02.113 +02:00 [Information] Executed endpoint '"SerilogRollingSample.Controllers.ValuesController.Get (SerilogRollingSample)"'
+2019-07-30 09:38:02.113 +02:00 [Information] Request finished in 41.0042ms 200 application/json; charset=utf-8

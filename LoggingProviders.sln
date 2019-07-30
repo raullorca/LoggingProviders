@@ -22,7 +22,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiagnosticTrace", "Diagnost
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TraceSampleApi", "TraceSampleApi\TraceSampleApi.csproj", "{A0225D58-4AEA-4F4D-8B2D-2C13BD017A04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogWebApi", "SerilogWebApi\SerilogWebApi.csproj", "{9A3D108A-436E-49AD-BA1B-812D30930868}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogWebApi", "SerilogWebApi\SerilogWebApi.csproj", "{9A3D108A-436E-49AD-BA1B-812D30930868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogRollingSample", "SerilogRollingSample\SerilogRollingSample.csproj", "{0D198A08-8637-482C-B939-454D6B3CA6D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{9A3D108A-436E-49AD-BA1B-812D30930868}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A3D108A-436E-49AD-BA1B-812D30930868}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A3D108A-436E-49AD-BA1B-812D30930868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D198A08-8637-482C-B939-454D6B3CA6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D198A08-8637-482C-B939-454D6B3CA6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D198A08-8637-482C-B939-454D6B3CA6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D198A08-8637-482C-B939-454D6B3CA6D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{F07867CC-183E-45D2-B8C2-3DEFD91C7D22} = {AF442D41-3982-477D-91B2-FC5B6581B419}
 		{A0225D58-4AEA-4F4D-8B2D-2C13BD017A04} = {209BD12B-FABE-417B-B195-A9A8E44684BA}
 		{9A3D108A-436E-49AD-BA1B-812D30930868} = {CA1B561E-F19A-4E68-94D5-0FC7BFA0AD06}
+		{0D198A08-8637-482C-B939-454D6B3CA6D8} = {CA1B561E-F19A-4E68-94D5-0FC7BFA0AD06}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43C46101-B525-4514-ACD7-A16927E53223}
